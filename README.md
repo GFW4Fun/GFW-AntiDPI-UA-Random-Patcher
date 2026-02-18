@@ -24,7 +24,7 @@ These static strings act as a **critical fingerprint** that allows deep packet i
 
 ## ✅ The Solution
 
-Binary-level patching replaces the static UA with a **random length-character alphanumeric string** on every run.
+Binary-level patching replaces the static UA with a **random length&character alphanumeric string** on every run.
 
 | Before (Detected 🚫) | After (Safe ✅) |
 |----------------------|----------------|
