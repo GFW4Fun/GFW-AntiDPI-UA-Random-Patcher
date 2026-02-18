@@ -24,12 +24,12 @@ These static strings act as a **critical fingerprint** that allows deep packet i
 
 ## ✅ The Solution
 
-Binary-level patching replaces the static UA with a **random 36-character alphanumeric string** on every run.
+Binary-level patching replaces the static UA with a **random length-character alphanumeric string** on every run.
 
 | Before (Detected 🚫) | After (Safe ✅) |
 |----------------------|----------------|
-| `Go-http-client/1.1` | `Kj8mPxQrStUvWxYzAbCdEfGhIjKlMnOp1234` |
-| `Go-http-client/2.0` | `XyZaBcDeFgHiJkLmNoPqRsTuVw9876543210` |
+| `Go-http-client/1.1` | `XyHiJkLs` |
+| `Go-http-client/2.0` | `XyHiJkLs` |
 
 > **Byte-perfect replacement** — exact 18 bytes each = zero crash risk
 
