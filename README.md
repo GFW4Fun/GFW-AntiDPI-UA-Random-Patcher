@@ -1,4 +1,4 @@
-# GFW Anti-DPI Fingerprint UA Randomizer 🛡️
+# GFW Anti-DPI(AntiSpy) Fingerprint UA Randomizer 🛡️
 
 <div align="center">
 
