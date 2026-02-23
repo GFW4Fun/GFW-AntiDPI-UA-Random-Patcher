@@ -38,8 +38,8 @@ Binary-level patching replaces the static UA with a **random length&character al
 ## 🚀 Usage — 3 Steps Only
 
 ```
-Step 1 — Copy patcher.ps1 into your EXE folder
-Step 2 — Right-click patcher.ps1 → "Run with PowerShell"
+Step 1 — Copy patcher.cmd into your EXE folder
+Step 2 — Right-click patcher.cmd → "Run as administrator"
 Step 3 — Select EXE number and press Enter
 ```
 
@@ -51,7 +51,7 @@ VPN-Folder/
 ├── 📄 xray.exe                  ← Vulnerable (before)
 ├── 📄 mihomo.exe                ← Vulnerable (before)
 ├── 📄 ...                       ← Other targets
-├── ⚙️  patcher.ps1               ← Drop here & run
+├── ⚙️  patcher.cmd               ← Drop here & run
     ↓ ↓ ↓
 ├── ✅ sing-box-patched.exe       ← Safe (after)
 ├── ✅ xray-patched.exe           ← Safe (after)
@@ -166,15 +166,6 @@ $randomUA = "CustomUA-MyBuild-v1.0-Release"
 
 ***
 
-## 💾 Quick Deploy (Optional)
-
-Save as `run.bat` for double-click launch:
-
-```batch
-@echo off
-powershell -ExecutionPolicy Bypass -File patcher.ps1
-pause
-```
 
 ***
 
