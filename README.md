@@ -166,9 +166,6 @@ $randomUA = "CustomUA-MyBuild-v1.0-Release"
 
 ***
 
-
-***
-
 ## 📌 Why Not Just Recompile?
 
 | Method | Difficulty | Time | Risk |
